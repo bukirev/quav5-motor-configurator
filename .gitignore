@@ -1,0 +1,32 @@
+# --- локальные архивы и временные файлы -------------------------------
+# архив прежней сессии PX4: содержимое продублировано в code/, docs/, logs/
+\!\!\!px4.zip
+__pycache__/
+*.py[cod]
+*.log
+
+# --- материалы исследования, оставленные локально (в репозиторий не идут) ---
+# Полный список и ссылки на источник: research/NOTICE.md
+
+# дубликат подмножества research/ardupilot
+research/ardupilot_tag/
+
+# исходники PX4 (BSD-3) - сверка велась с ArduPilot
+research/px4_src/
+
+# common.xml + pymavlink (GPLv3) - эталон для кросс-проверки кодека
+research/mavlink/
+
+# справочник PX4 по актуаторам
+research/docs_actuators_v1.15.txt
+
+# --- файлы ArduPilot, не цитируемые в документации -----------------------
+research/ardupilot/ArduCopter__commands.cpp
+research/ardupilot/ArduCopter__Copter.h
+research/ardupilot/ArduCopter__defines.h
+research/ardupilot/ArduCopter__Parameters.h
+research/ardupilot/libraries__AP_Motors__AP_Motors.h
+research/ardupilot/libraries__AP_Motors__AP_MotorsCoax.h
+research/ardupilot/libraries__AP_Motors__AP_MotorsMulticopter.cpp
+research/ardupilot/libraries__AP_Motors__AP_MotorsMulticopter.h
+research/ardupilot/libraries__AP_Motors__AP_Motors_Class.cpp
